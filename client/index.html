@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSV Generator</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <form action="http://localhost:8080/data" method="post">
+		<div>
+			<label for="JSONinput">text here</label>
+      <textarea type="textarea" name="JSONtext" id="JSONtext"></textarea>
+		</div>
+		<div>
+			<button type="submit" id="submit">Generate CSV</button>
+		</div>
+	</form>
+  <div id="result"></div>
+  <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
